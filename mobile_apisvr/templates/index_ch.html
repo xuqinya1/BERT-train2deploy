@@ -1,7 +1,7 @@
 <!doctype html public "-//w3c//dtd html 4.0 transitional//en">
 <html>
  <head>
-  <title>Chemical bond energy scientific data extraction</title>
+  <title>化学实体识别演示</title>
 	 <!--<link rel="icon" href="1872390.ico" type="image/x-icon" />-->
      <!--<link rel="shortcut icon" href="1872390.ico" type="image/x-icon" />-->
 	 <!--<link rel="icon" href="data:;base64,iVBORw0KGgo=">-->
@@ -138,7 +138,7 @@ $(document).ready(function(){
   <!--</div>-->
 
 <div class="nlp-word">
-	<div class="word-head">Chemical bond energy scientific data extraction　version: {{ version }}
+	<div class="word-head">化学实体识别演示　版本: {{ version }}
 	<div style="float:right" id="desc"><img src="static/color.jpg"  alt="color-description" height="120px" width="300px" /></div>
 
 	</div>
@@ -148,13 +148,13 @@ $(document).ready(function(){
 
 		<div class="com-text-cover">
 			<div class="mid-down-title">
-				<span class="down-title-des">Please enter the text to be analyzed:</span>
+				<span class="down-title-des">请输入待分析的文本：</span>
 			</div>
 			<textarea name="txt" id="txt" spellcheck="false" maxlength="" class="com-txt" onfocus="this.select()">
 			</textarea>
 			<div class="ed-form-down">
-				<span class="ed-down-tips">Tip: No need to deal with the format, just copy the text content directly
-					<input type="button" value=" submit " id="bt_submit" />
+				<span class="ed-down-tips">提示：无需处理格式，直接复制文本内容即可
+					<input type="button" value=" 提交 " id="bt_submit" />
 				</span>
 			</div>
 		</div>
@@ -164,8 +164,8 @@ $(document).ready(function(){
 	<!--<div class="result-left-title" style="margin-top:50px">-->
 		<!--<span class="down-title-des">识别结果：</span>-->
 	<!--</div>-->
-			<div class="result-left-title" style="margin-top:50px"><h4>Result：</h4>
-				<div class="com-txt" id="result" >.</div>
+			<div class="result-left-title" style="margin-top:50px"><h4>识别结果：</h4>
+				<div class="com-txt" id="result" >......</div>
 				<!--报错："GET /image/color.jpg HTTP/1.1" 404 -		改进：把它移到了static文件中去了-->
 				<!--<textarea name="result" id="result" spellcheck="false" maxlength="" class="com-txt"></textarea>-->
 
